@@ -1,0 +1,14 @@
+[package]
+name = "black-hole-sim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# eframe = egui + winit windowing + a wgpu renderer. We use its wgpu backend and
+# draw our own full-screen ray-marching pass through an egui_wgpu paint callback.
+eframe = { version = "0.37", default-features = false, features = ["wgpu", "default_fonts", "wayland", "x11"] }
+# Safe casting of our uniform struct to raw bytes for upload to the GPU.
+bytemuck = { version = "1.25", features = ["derive"] }
+
+[profile.dev]
+opt-level = 1
