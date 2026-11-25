@@ -4,4 +4,4 @@ in rust we trust
 cargo run --release
 ```
 ## tuff pic
-<img width="1281" height="820" alt="image" src="https://github.com/user-attachments/assets/64e4ef8e-c60f-4632-8ebb-b7488986c054" />
+<img width="1278" height="831" alt="image" src="https://github.com/user-attachments/assets/f8e2891d-ee7e-46b1-acdd-2012627c64a8" />
